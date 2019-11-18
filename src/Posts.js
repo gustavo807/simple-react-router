@@ -9,7 +9,7 @@ const loadData = async () =>{
   let responseOK = res && res.status === 200;
   if(responseOK) return res.data
   throw new Error(res.statusText)
-}
+} 
 
 function Posts() {
 
